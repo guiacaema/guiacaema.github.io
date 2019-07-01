@@ -1,6 +1,7 @@
 :root {
-  --color-negative: #004685;
+  --color-negative: #000000;
   --color-zero: #ffffff;
   --color-first: #6dcaee;
   --color-second: #0099d7;
+  --color-third: #004685;
 }

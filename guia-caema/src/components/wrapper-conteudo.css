@@ -1,14 +1,14 @@
 .wrapper-conteudo {
   float: right;
   background-color: var(--color-first);
-  border-left: 4px solid var(--color-negative);
+  border-left: 4px solid var(--color-third);
   box-sizing: border-box;
   width: 75%;
 }
 
 .wrapper-conteudo .title {
   margin-top: 90px;
-  color: var(--color-negative);
+  color: var(--color-third);
   font-size: 2em;
   text-align: center;
 }
@@ -16,26 +16,29 @@
 .wrapper-conteudo .title .-back {
   color: var(--color-zero);
   background-color: var(--color-second);
-  padding: 5px 0;
+  padding: 5px;
 }
 
 .wrapper-conteudo .dataTitle {
   text-transform: uppercase;
   margin: 30px 20px;
   font-size: 1.4em;
+  color: var(--color-zero);
+  font-weight: bold;
+}
+
+.wrapper-conteudo .dataDate {
+  color: var(--color-third);
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 0 30px;
+  line-height: 2;
+  text-align: justify;
 }
 
 .wrapper-conteudo .dataDate strong {
   color: var(--color-negative);
   text-transform: uppercase;
-}
-
-.wrapper-conteudo .dataTitle,
-.wrapper-conteudo .dataDate {
-  color: var(--color-second);
-  font-weight: bold;
-  margin-top: 30px;
-  line-height: 2;
 }
 
 .wrapper-conteudo .figureContainer {
