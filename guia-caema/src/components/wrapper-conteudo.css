@@ -1,0 +1,72 @@
+.wrapper-conteudo {
+  float: right;
+  background-color: var(--color-first);
+  border-left: 4px solid var(--color-negative);
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.wrapper-conteudo .title {
+  margin-top: 90px;
+  color: var(--color-negative);
+  font-size: 2em;
+  text-align: center;
+}
+
+.wrapper-conteudo .title .-back {
+  color: var(--color-zero);
+  background-color: var(--color-second);
+  padding: 5px 0;
+}
+
+.wrapper-conteudo .dataTitle {
+  text-transform: uppercase;
+  margin: 30px 20px;
+  font-size: 1.4em;
+}
+
+.wrapper-conteudo .dataDate strong {
+  color: var(--color-negative);
+  text-transform: uppercase;
+}
+
+.wrapper-conteudo .dataTitle,
+.wrapper-conteudo .dataDate {
+  color: var(--color-second);
+  font-weight: bold;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.wrapper-conteudo .figureContainer {
+  position: relative;
+}
+
+.wrapper-conteudo .figure {
+  display: inline-block;
+  width: 30%;
+  margin-left: 25px;
+  margin-right: 0;
+}
+
+.wrapper-conteudo .picture {
+  width: 100%;
+  cursor: pointer;
+}
+
+.wrapper-conteudo .picture:active {
+  width: 70%;
+  position: absolute;
+  left: 25px;
+  top: 0;
+  transition: width linear 200ms;
+  clear: both;
+}
+
+.wrapper-conteudo .legend {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+  font-weight: normal;
+  color: var(--color-negative);
+}

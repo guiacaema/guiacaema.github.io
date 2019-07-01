@@ -1,0 +1,56 @@
+.wrapper-menu {
+  float: left;
+  background-color: var(--color-zero);
+  width: 20%;
+  text-align: center;
+  position: fixed;
+}
+
+.wrapper-menu .logo {
+  margin-top: 80px;
+}
+
+.wrapper-menu .title {
+  margin: 80px 0 85px;
+  color: var(--color-first);
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.wrapper-menu .title .-back {
+  color: var(--color-negative);
+  background-color: var(--color-first);
+  padding: 5px;
+}
+
+.wrapper-menu .subTitle {
+  color: var(--color-negative);
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 70px 0 25px;
+}
+
+.wrapper-menu .-line {
+}
+
+.wrapper-menu .menu a {
+  color: var(--color-negative);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.wrapper-menu .menu a::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--color-negative);
+  margin-right: 5px;
+}
+
+.wrapper-menu .menu a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
