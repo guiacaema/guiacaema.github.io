@@ -8,26 +8,37 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/styles/settings/colors.css" />
-    <link rel="stylesheet" href="src/styles/generic/reset.css" />
-    <link rel="stylesheet" href="src/styles/elements/base.css" />
-    <link rel="stylesheet" href="/src/components/container-guia.css" />
-    <link rel="stylesheet" href="src/components/wrapper-menu.css" />
-    <link rel="stylesheet" href="src/components/wrapper-conteudo.css" />
+    <link rel="stylesheet" href="/guia-caema/src/styles/settings/colors.css" />
+    <link rel="stylesheet" href="/guia-caema/src/styles/generic/reset.css" />
+    <link rel="stylesheet" href="/guia-caema/src/styles/elements/base.css" />
+    <link
+      rel="stylesheet"
+      href="/guia-caema/src/components/container-guia.css"
+    />
+    <link rel="stylesheet" href="/guia-caema/src/components/wrapper-menu.css" />
+    <link
+      rel="stylesheet"
+      href="/guia-caema/src/components/wrapper-conteudo.css"
+    />
 
     <title>Guia de Tarefas - CCRCG</title>
   </head>
+
   <body>
     <div class="container-guia">
       <div class="wrapper-menu -last">
         <figure>
-          <img class="logo" src="/guia-caema/img/logo.png" alt="Logo Caema" />
+          <a href="./index.html">
+            <img class="logo" src="/guia-caema/img/logo.png" alt="Logo Caema"
+          /></a>
         </figure>
         <h1 class="title"><spam class="-back">Tarefas</spam> - CCRCG</h1>
         <h3 class="subTitle">Menu</h3>
         <nav class="menu -line">
           <ul>
-            <li><a href="">Agrupamento e Desagrupamento</a></li>
+            <li>
+              <a href="./agrup_desagrup.html">Agrupamento e Desagrupamento</a>
+            </li>
             <li><a href="">Revisão e Emissão das Faturas Agrupadas</a></li>
             <li><a href="">Acompanhmento dos Clientes Especiais</a></li>
             <li><a href="">Acompanhamento dos Poderes Públicos</a></li>
@@ -39,126 +50,45 @@
           <span class="-back">Agrupamento e Desagrupamento</span>
         </h1>
         <dl>
-          <dt class="dataTitle">Documentos Necessários</dt>
+          <dt class="dataTitle">Definição</dt>
           <dd class="dataDate">
             <p>
-              Tanto para agrupamentos ou desagrupamentos, existe a necessidade
-              de apresentação de Documentos pela parte solicitante.
+              O termo agrupado, é conferido aqueles clientes que possuem vários
+              imóveis. Como exemplo, podemos citar as Prefeituras Municipais,
+              que possuem várias secretarias e dentro destas existem vários
+              imóveis.
             </p>
             <p>
-              - Ofício com a solicitação (tanto para agrupamentos quanto
-              desagrupamentos); Contrato de locação (para agrupamentos);
-              Destrato e/ou termo de entrega de chaves (para desagrupamentos);
+              O agrupamento de um imóvel é definido pela determinação de um
+              cliente responśavel e pela opção de envio - Enviar para o cliente
+              resposável - não emite conta.
             </p>
           </dd>
-          <dd class="dataDate">
-            OBS.: O que define se uma matrícula está Agrupada é a definição de
-            um <strong>Responsável</strong> para o Imóvel e se a opção de envio
-            de conta estiver definido como:
-            <strong> Enviar para o cliente responsável - Não emite conta</strong
-            >.
-          </dd>
-          <div class="figureContainer">
+          <div class="containerFigure">
             <figure class="figure">
               <img
+                src="/guia-caema/img/definicao-agrupado.png"
+                alt="Definição Agrupado"
                 class="picture"
-                src="/guia-caema/img/dados_imovel_01.png"
-                alt="Figura para mostrar o responsável"
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                class="picture"
-                src="/guia-caema/img/dados_do_imovel_01.png"
-                alt="Figura para mostrar a opção de envio"
               />
             </figure>
           </div>
-          <dt class="dataTitle">Passo à passo para Agrupamentos</dt>
-          <dd class="dataDate">
-            <p>Existe duas formas para podermos agrupar uma matrícula:</p>
-            <p>
-              01 - Usando a funionalidade de manter imóvel em:
-              <strong>GSAN -> Cadastro -> Imovel -> Manter Imovel</strong>, para
-              aqueles imóveis que não possuem débitos anteriores e não existe a
-              necessidade de alterar o vínculo das contas;
-            </p>
-          </dd>
-          <div class="figureContainer">
-            <figure class="figure">
-              <img
-                class="picture"
-                src="/guia-caema/img/dados_imovel_01.png"
-                alt="Figura para mostrar o responsável"
-              />
-              <figcaption class="legend">
-                <p>01 - Passo Um</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus in magna sit amet mauris imperdiet accumsan.
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="figure">
-              <img
-                class="picture"
-                src="/guia-caema/img/dados_do_imovel_01.png"
-                alt="Figura para mostrar a opção de envio"
-              />
-              <figcaption class="legend">
-                <p>02 - Passo Dois</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus in magna sit amet mauris imperdiet accumsan.
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="figure">
-              <img
-                class="picture"
-                src="/guia-caema/img/dados_do_imovel_01.png"
-                alt="Figura para mostrar a opção de envio"
-              />
-              <figcaption class="legend">
-                <p>03 - Passo Três</p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus in magna sit amet mauris imperdiet accumsan.
-                </p>
-              </figcaption>
-            </figure>
-          </div>
+          <dt class="dataTitle">Objetivo</dt>
           <dd class="dataDate">
             <p>
-              02 - Usando a funionalidade de alterar o vínculo da conta em:
-              <strong>
-                GSAN -> Faturamento -> Conta -> Alterar Vinculos de Clientes com
-                Imovel e Contas </strong
-              >, para os imóveis que possuem débitos anteriores e precisamos
-              definir a responsabilidade de cada cliente para cada período da
-              dívida;
+              A busca pela padronização dos serviços executados na comercial, o
+              melhor atendimento aos nossos clientes com informações mais
+              precisas e coerentes, ter um material de consulta das nossas
+              atividades.
             </p>
           </dd>
-          <dt class="dataTitle">Passo à passo para Desagrupamentos</dt>
+          <dt class="dataTitle">A quem se destina?</dt>
           <dd class="dataDate">
-            <p>Existe duas formas para podermos agrupar uma matrícula:</p>
             <p>
-              01 - Usando a funionalidade de manter imóvel em:
-              <strong>GSAN -> Cadastro -> Imovel -> Manter Imovel</strong>, para
-              aqueles imóveis que não possuem débitos anteriores e não existe a
-              necessidade de alterar o vínculo das contas;
-            </p>
-            <p>
-              02 - Usando a funionalidade de alterar o vínculo da conta em:
-              <strong>
-                GSAN -> Faturamento -> Conta -> Alterar Vinculos de Clientes com
-                Imovel e Contas </strong
-              >, para os imóveis que possuem débitos anteriores e precisamos
-              definir a responsabilidade de cada cliente para cada período da
-              dívida;
+              A todos da área comercial, e a todos os colaboradores que tem a
+              curiosidade de como funciona a execução dos serviços na comercial.
             </p>
           </dd>
-          <dt></dt>
         </dl>
       </div>
     </div>
